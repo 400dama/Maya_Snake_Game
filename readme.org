@@ -1,0 +1,18 @@
+#+TITLE: Maya Snake Game
+
+Play snake game in maya.
+
+* Requirements
+- Maya2018+
+- Viewport2.0
+
+* Usage
+- Put =dama_snake.py= in your =MAYA_PLUG_IN_PATH=.
+- Run this command in your =script editor= with =python=.
+#+BEGIN_SRC python
+  cmds.dama_snake()
+#+END_SRC
+- Press =up= =left= =right= =down= on your keyboard to move snake.
+- Press =space= on your keyboard to start or pause the game.
+- Press =esc= on your keyboard to stop the game.
+- Delete =Snake_Camera= and =dama_snake= node.
