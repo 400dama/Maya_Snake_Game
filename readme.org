@@ -8,6 +8,7 @@ Play snake game in maya.
 
 * Usage
 - Put =dama_snake.py= in your =MAYA_PLUG_IN_PATH=.
+- Load plugin.
 - Run this command in your =script editor= with =python=.
 #+BEGIN_SRC python
   cmds.dama_snake()
